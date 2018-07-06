@@ -1,0 +1,40 @@
+.container
+    display: flex;
+
+    > .field
+        border: 1px solid black;
+        background: rgba(255,255,0,0.2);
+        position: relative;
+        top: 0;
+        left: 0;
+
+    > .sidebar
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+
+        > .stats
+            margin: 0.1em
+            padding: 1em
+            border: 1px solid black;
+            background: rgba(0,255,0,0.2);
+
+            > .row
+                display: flex;
+                > .name
+                    flex-grow: 1;
+                > .value
+                    flex-grow: 1;
+                    font-weight: bold;
+
+        > .log-container
+            flex-grow: 1
+            margin: 0.1em
+            padding: 1em
+            border: 1px solid black
+
+            > .log
+                max-height: 100%
+
+                > .line
+
