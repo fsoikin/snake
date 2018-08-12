@@ -1,7 +1,6 @@
 public/bundle.js*
 node_modules/
 .vscode/
-.paket/
 
 # Build results
 
